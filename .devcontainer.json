@@ -29,10 +29,6 @@
             }
         }
     },
-    "remoteUser": "vscode",
-    "mounts": [
-        "type=bind,source=/home/${localEnv:USER}/.ssh,target=/home/vscode/.ssh,readonly"
-    ],
     "features": {
         "rust": "latest"
     }
